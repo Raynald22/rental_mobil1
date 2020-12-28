@@ -60,8 +60,8 @@
                                 echo "-";
                             } else { ?>
                                 <div class="row">   
-                                    <a onclick="return confirm('Yakin anda ingin membatalkan pesanan?')" class="btn btn-sm btn-success mr-2" href="<?= base_url('admin/transaksi/transaksi_selesai/' . $tr->id_rental) ?>"><i class="fa fa-check"></i></a>
-                                    <a class="btn btn-sm btn-danger" href="<?= base_url('admin/transaksi/batal_transaksi/' . $tr->id_rental) ?>"><i class="fa fa-times"></i></a>
+                                    <a onclick="return confirm('Yakin anda ingin menkonfirmasi pesanan?')" class="btn btn-sm btn-success mr-2" href="<?= base_url('admin/transaksi/transaksi_selesai/' . $tr->id_rental) ?>"><i class="fa fa-check"></i></a>
+                                    <a onclick="return confirm('Yakin anda ingin membatalkan pesanan?')" class="btn btn-sm btn-danger" href="<?= base_url('admin/transaksi/batal_transaksi/' . $tr->id_rental) ?>"><i class="fa fa-times"></i></a>
                                 </div>
                             <?php  } ?>
                         </td>

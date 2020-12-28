@@ -16,9 +16,9 @@
                                 <?php if ($this->session->flashdata('pesan')) : ?>
                                     <script>
                                         swal({
-                                            title: "Error",
+                                            title: "Sukses",
                                             text: "<?php echo $this->session->flashdata('pesan'); ?>",
-                                            icon: 'error',
+                                            icon: 'success',
                                             button: "Ok"
                                         });
                                     </script>
