@@ -4,9 +4,10 @@ class Data_mobil extends CI_Controller
 {
 	public function index()
 	{
+		$params['title'] = 'Data Mobil';
 		$data['mobil'] = $this->rental_model->get_data('mobil')->result();
 		$data['type'] = $this->rental_model->get_data('type')->result();
-		$this->load->view('template_admin/header');
+		$this->load->view('template_admin/header', $params);
 		$this->load->view('template_admin/sidebar');
 		$this->load->view('admin/data_mobil', $data);
 		$this->load->view('template_admin/footer');

@@ -112,11 +112,11 @@
 
 								<li><a href="<?= base_url('customer/data_mobil') ?>">Mobil</a></>
 								<li><a href="<?= base_url('customer/transaksi') ?>">Transaksi</a></li>
-								<li><a href="<?= base_url('register') ?>">Register</a></li>
 								<?php if ($this->session->userdata('nama')) { ?>
 									<li><a href="<?= base_url('auth/logout') ?>">Welcome <?php echo $this->session->userdata('nama') ?><span> | Logout</span></a></li>
 								<?php
 								} else { ?>
+									<li><a href="<?= base_url('register') ?>">Register</a></li>
 									<li><a href="<?= base_url('auth/login') ?>">Login</a></li>
 								<?php } ?>
 							</ul>

@@ -27,7 +27,6 @@
 					<th>Gender</th>
 					<th>No.Telp</th>
 					<th>No.KTP</th>
-					<th>Password</th>
 					<th>Aksi</th>
 				</tr>
 			</thead>
@@ -43,10 +42,10 @@
 						<td><?= $cs->gender ?></td>
 						<td><?= $cs->no_telp ?></td>
 						<td><?= $cs->no_ktp ?></td>
-						<td><?= $cs->password ?></td>
 
-						<td><a href="<?= base_url('admin/data_customer/delete_customer/') . $cs->id_customer ?>" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
-							<a href="<?= base_url('admin/data_customer/update_customer/') . $cs->id_customer ?>" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i></a>
+						<td>
+							<a href="<?= base_url('admin/data_customer/delete_customer/') . $cs->id_customer ?>" class="btn btn-sm btn-danger"><i class="fas fa-trash"> Delete</i></a>
+							<a href="<?= base_url('admin/data_customer/update_customer/') . $cs->id_customer ?>" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i> Edit</a>
 						</td>
 					</tr>
 				<?php endforeach; ?>

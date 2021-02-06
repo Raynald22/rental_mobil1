@@ -11,7 +11,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="<?= base_url() ?>/assets/assets_shop/img/icon/favicon-16x16.png">
 	<link rel="manifest" href="<?= base_url() ?>/assets/assets_shop/img/icon/site.webmanifest">
 
-	<title>Rental Mobil</title>
+	<title><?= $title ?></title>
 
 	<!-- General CSS Files -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
