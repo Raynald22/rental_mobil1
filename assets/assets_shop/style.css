@@ -149,13 +149,13 @@
 }
 
 .scroll-top {
-    bottom: 50px;
-    cursor: pointer;
-    display: none;
-    position: fixed;
-    right: 30px;
-    width: 30px;
-    z-index: 9999;
+	bottom: 50px;
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	right: 30px;
+	width: 30px;
+	z-index: 9999;
 }
 
 /*== Theme Defualt CSS ==*/
@@ -447,7 +447,7 @@ a.slicknav_btn {
 }
 
 .gj-calendar-bootstrap table tr td.today div {
-	color: #ffd000
+	color: #ffd000;
 }
 
 .gj-calendar-bootstrap table tr td.selected div {
@@ -499,7 +499,6 @@ a.slicknav_btn {
 .about-btn a:hover {
 	background-color: #222;
 }
-
 
 .about-video {
 	position: relative;
@@ -739,9 +738,8 @@ a.slicknav_btn {
 .choose-content-wrap .nav-tabs li a.active {
 	background-color: #ffd000 !important;
 	background-color: #ffd000 !important;
-	color: #fff!important;
+	color: #fff !important;
 }
-
 
 /* Popular Cars Css Start */
 
@@ -830,7 +828,7 @@ a.slicknav_btn {
 .p-car-thumbnails a.car-hover:hover:after {
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	opacity: .5;
+	opacity: 0.5;
 }
 
 .p-car-thumbnails a.car-hover::before {
@@ -908,7 +906,6 @@ a.slicknav_btn {
 	color: #fff;
 	border-color: #ffd000;
 }
-
 
 /* Popular Cars Css End */
 
@@ -1125,7 +1122,6 @@ a.slicknav_btn {
 	background-color: #ffd000;
 }
 
-
 /*== Testimonial Area CSS End ==*/
 
 /*== Mobile Apps CSS Start ==*/
@@ -1166,7 +1162,7 @@ a.slicknav_btn {
 }
 
 .mobile-app-content p {
-	margin: 5px 0 20px
+	margin: 5px 0 20px;
 }
 
 .app-btns a {
@@ -1454,7 +1450,6 @@ a.slicknav_btn {
 	background-color: #ffd000;
 }
 
-
 .get-touch {
 	color: #ffd000;
 	font-size: 15px;
@@ -1648,7 +1643,6 @@ body,
 	border-color: #ffd000;
 }
 
-
 .book-ur-car .input-group-append i.fa {
 	font-size: 15px !important;
 	line-height: 30px;
@@ -1818,7 +1812,6 @@ body,
 	background-color: #eeeeee;
 }
 
-
 .team-member-pro-pic {
 	height: 429px;
 	position: relative;
@@ -1832,7 +1825,6 @@ body,
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
-
 
 .team-member-info {
 	background-color: #eeeeee;
@@ -2309,8 +2301,6 @@ body,
 	position: relative;
 }
 
-
-
 .car-info-list li + li {
 	border-left: 0;
 }
@@ -2694,7 +2684,6 @@ body,
 	text-transform: uppercase;
 }
 
-
 /*==============================
     Article Details Page Css
 ================================*/
@@ -2845,11 +2834,17 @@ body,
 	transform: translateY(-50%);
 }
 
-.single-faq-sub-content .card-header button[aria-expanded="true"] i.fa-angle-down {
+.single-faq-sub-content
+	.card-header
+	button[aria-expanded="true"]
+	i.fa-angle-down {
 	display: none;
 }
 
-.single-faq-sub-content .card-header button[aria-expanded="false"] i.fa-angle-up {
+.single-faq-sub-content
+	.card-header
+	button[aria-expanded="false"]
+	i.fa-angle-up {
 	display: none;
 }
 
@@ -2986,7 +2981,13 @@ body,
 }
 
 .login-with-btn {
-	background: -webkit-gradient(linear, left top, left bottom, from(#3b5998), to(#344e86));
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#3b5998),
+		to(#344e86)
+	);
 	background: linear-gradient(to bottom, #3b5998, #344e86);
 	border-radius: 3px;
 	color: #fff;
@@ -3000,19 +3001,37 @@ body,
 }
 
 .login-with-btn.facebook:hover {
-	background: -webkit-gradient(linear, left top, left bottom, from(#344e86), to(#3b5998));
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#344e86),
+		to(#3b5998)
+	);
 	background: linear-gradient(to bottom, #344e86, #3b5998);
 }
 
 .login-with-btn.google {
-	background: -webkit-gradient(linear, left top, left bottom, from(#DC4A38), to(#Dd5b21));
-	background: linear-gradient(to bottom, #DC4A38, #Dd5b21);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#dc4a38),
+		to(#dd5b21)
+	);
+	background: linear-gradient(to bottom, #dc4a38, #dd5b21);
 	margin-top: 15px;
 }
 
 .login-with-btn.google:hover {
-	background: -webkit-gradient(linear, left top, left bottom, from(#Dd5b21), to(#DC4A38));
-	background: linear-gradient(to bottom, #Dd5b21, #DC4A38);
+	background: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#dd5b21),
+		to(#dc4a38)
+	);
+	background: linear-gradient(to bottom, #dd5b21, #dc4a38);
 }
 
 .login-with-btn:hover {
@@ -3066,7 +3085,7 @@ body,
 	font-size: 150px;
 	font-weight: 400;
 	line-height: 100%;
-	font-family: 'Monoton', cursive;
+	font-family: "Monoton", cursive;
 }
 
 .four,
@@ -3113,7 +3132,6 @@ body,
 #page-404-wrap.overlay::after {
 	background-color: rgba(0, 0, 0, 0.9);
 }
-
 
 /*==============================
     Driver Page Css
@@ -3171,23 +3189,23 @@ body,
 }
 
 .driver-mem-sicons a:hover i.fa-facebook {
-	background-color: #5D82D1;
-	border-color: #5D82D1;
+	background-color: #5d82d1;
+	border-color: #5d82d1;
 }
 
 .driver-mem-sicons a:hover i.fa-twitter {
-	background-color: #40BFF5;
-	border-color: #40BFF5;
+	background-color: #40bff5;
+	border-color: #40bff5;
 }
 
 .driver-mem-sicons a:hover i.fa-dribbble {
-	background-color: #F7659C;
-	border-color: #F7659C;
+	background-color: #f7659c;
+	border-color: #f7659c;
 }
 
 .driver-mem-sicons a:hover i.fa-pinterest {
-	background-color: #E13138;
-	border-color: #E13138;
+	background-color: #e13138;
+	border-color: #e13138;
 }
 
 .driver-mem-sicons a:last-child {
