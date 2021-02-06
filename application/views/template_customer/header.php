@@ -108,7 +108,7 @@
 					<div class="col-lg-8 d-none d-xl-block">
 						<nav class="mainmenu alignright">
 							<ul>
-								<li><a href="<?= base_url('customer/dashboard') ?>">Beranda</a></li>
+								<li><a href="<?= base_url('dashboard') ?>">Beranda</a></li>
 
 								<li><a href="<?= base_url('customer/data_mobil') ?>">Mobil</a></>
 								<li><a href="<?= base_url('customer/transaksi') ?>">Transaksi</a></li>

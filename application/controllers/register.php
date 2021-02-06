@@ -18,7 +18,7 @@ class Register extends CI_Controller
 			$no_telp      = $this->input->post('no_telp');
 			$no_ktp      = $this->input->post('no_ktp');
 			$password      = md5($this->input->post('password'));
-			$role_id        = 2;
+			$role_id        = '2';
 
 			$data = array(
 				'nama'     => $nama,
