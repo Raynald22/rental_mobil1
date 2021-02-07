@@ -31,7 +31,7 @@
 									</button>
 									<div>
 										<p class="small">
-											Already have an account ? <a href="<?= base_url('register') ?>">Register</a>
+											Dont have an account ? <a href="<?= base_url('register') ?>">Register</a>
 										</p>
 									</div>
 								</form>
