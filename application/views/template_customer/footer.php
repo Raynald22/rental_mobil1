@@ -7,7 +7,7 @@
  				<!-- Single Footer Widget Start -->
  				<div class="col-lg-4 col-md-6">
  					<div class="single-footer-widget">
- 						<h2>About Us</h2>
+ 						<h2>Tentang Kami</h2>
  						<div class="widget-body">
  							<img src="<?= base_url() ?>/assets/assets_shop/img/logo.png" alt="JSOFT">
  							<p>Lorem ipsum dolored is a sit ameted consectetur adipisicing elit. Nobis magni assumenda distinctio debitis, eum fuga fugiat error reiciendis.</p>
@@ -72,7 +72,7 @@
  								<li><i class="fa fa-mobile"></i> +62 8127 3774</li>
  								<li><i class="fa fa-envelope"></i> rental_mobil@gmail.com</li>
  							</ul>
- 							<a href="#" class="map-show" target="_blank">Show Location</a>
+ 							<!-- <a href="#" class="map-show" target="_blank">Show Location</a> -->
  						</div>
  					</div>
  				</div>
@@ -92,7 +92,7 @@
  						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
  						Copyright &copy;<script>
  							document.write(new Date().getFullYear());
- 						</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+ 						</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i><a href="https://colorlib.com" target="_blank"></a>
  						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
  					</p>
  				</div>

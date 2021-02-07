@@ -5,9 +5,8 @@
 			<!-- Page Title Start -->
 			<div class="col-lg-12">
 				<div class="section-title  text-center">
-					<h2>Our Cars</h2>
+					<h2>Mobil Kami</h2>
 					<span class="title-line"><i class="fa fa-car"></i></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
 			</div>
 			<!-- Page Title End -->
@@ -68,17 +67,11 @@
 												}
 												?> Central Lock </li>
 										</ul>
-										<p class="rating">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star unmark"></i>
-										</p>
+
 										<?php if ($mb->status == "1") {
 											echo anchor('customer/rental/tambah_rental/' . $mb->id_mobil, '<span class="rent-btn">Rental</span>');
 										} else {
-											echo "<span class='rent-btn'>Tidak Tersedia</span>";
+											echo "<span class='rent-btn' style='background-color: #E65540;'>Tidak Tersedia</span>";
 										} ?>
 										<a href="<?= base_url('customer/data_mobil/detail_mobil/' . $mb->id_mobil) ?>" class="rent-btn">Detail</a>
 									</div>

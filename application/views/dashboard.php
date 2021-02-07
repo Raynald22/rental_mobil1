@@ -6,11 +6,11 @@
 			<div class="col-lg-6">
 				<div class="mobile-app-content">
 					<div>
-						<h1 class="text-white mt-4">BOOK A CAR TODAY!</h1>
-						<p class="mt-4">FOR AS LOW AS $10 A DAY PLUS 15% DISCOUNT <br> FOR OUR RETURNING CUSTOMERS</p>
+						<h1 class="text-white mt-4">SEWA MOBIL SEKARANG!</h1>
+						<p class="mt-4">DENGAN PILIHAN TYPE MOBIL YANG BERAGAM <br> DAN KENYAMANAN YANG TERJAMIN</p>
 					</div>
 					<div class="app-btns">
-						<a href="<?= base_url('customer/data_mobil') ?>"><i class="fa fa-car"></i> Book Now</a>
+						<a href="<?= base_url('customer/data_mobil') ?>"><i class="fa fa-car"></i> Rental Sekarang</a>
 					</div>
 				</div>
 			</div>
@@ -26,9 +26,8 @@
 			<!-- Section Title Start -->
 			<div class="col-lg-12">
 				<div class="section-title  text-center">
-					<h2>About us</h2>
+					<h2>Tentang Kami</h2>
 					<span class="title-line"><i class="fa fa-car"></i></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
 			</div>
 			<!-- Section Title End -->
@@ -61,10 +60,10 @@
 			<div class="row">
 				<!-- Single Fretutes Start -->
 				<div class="col-lg-4">
-					<div class="about-feature-item active">
+					<div class="about-feature-item">
 						<i class="fa fa-car"></i>
 						<h3>ALL BRANDS</h3>
-						<p>Loremed ipsumed is a compnayes odsoyel dolor sit amet, consectetur adipisicing elit. Nesciunted all of.</p>
+						<p class="text-dark">Loremed ipsumed is a compnayes odsoyel dolor sit amet, consectetur adipisicing elit. Nesciunted all of.</p>
 					</div>
 				</div>
 				<!-- Single Fretutes End -->
@@ -95,88 +94,6 @@
 </section>
 <!--== About Us Area End ==-->
 
-<!--== Partner Area Start ==-->
-<div id="partner-area">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12 text-center">
-				<div class="partner-content-wrap">
-					<!-- Single Partner Start -->
-					<div class="single-partner">
-						<div class="display-table">
-							<div class="display-table-cell">
-								<img src="<?= base_url() ?>/assets/assets_shop/img/partner/partner-logo-1.png" alt="JSOFT">
-							</div>
-						</div>
-					</div>
-					<!-- Single Partner End -->
-
-					<!-- Single Partner Start -->
-					<div class="single-partner">
-						<div class="display-table">
-							<div class="display-table-cell">
-								<img src="<?= base_url() ?>/assets/assets_shop/img/partner/partner-logo-2.png" alt="JSOFT">
-							</div>
-						</div>
-					</div>
-					<!-- Single Partner End -->
-
-					<!-- Single Partner Start -->
-					<div class="single-partner">
-						<div class="display-table">
-							<div class="display-table-cell">
-								<img src="<?= base_url() ?>/assets/assets_shop/img/partner/partner-logo-3.png" alt="JSOFT">
-							</div>
-						</div>
-					</div>
-					<!-- Single Partner End -->
-
-					<!-- Single Partner Start -->
-					<div class="single-partner">
-						<div class="display-table">
-							<div class="display-table-cell">
-								<img src="<?= base_url() ?>/assets/assets_shop/img/partner/partner-logo-4.png" alt="JSOFT">
-							</div>
-						</div>
-					</div>
-					<!-- Single Partner End -->
-
-					<!-- Single Partner Start -->
-					<div class="single-partner">
-						<div class="display-table">
-							<div class="display-table-cell">
-								<img src="<?= base_url() ?>/assets/assets_shop/img/partner/partner-logo-5.png" alt="JSOFT">
-							</div>
-						</div>
-					</div>
-					<!-- Single Partner End -->
-
-					<!-- Single Partner Start -->
-					<div class="single-partner">
-						<div class="display-table">
-							<div class="display-table-cell">
-								<img src="<?= base_url() ?>/assets/assets_shop/img/partner/partner-logo-1.png" alt="JSOFT">
-							</div>
-						</div>
-					</div>
-					<!-- Single Partner End -->
-
-					<!-- Single Partner Start -->
-					<div class="single-partner">
-						<div class="display-table">
-							<div class="display-table-cell">
-								<img src="<?= base_url() ?>/assets/assets_shop/img/partner/partner-logo-4.png" alt="JSOFT">
-							</div>
-						</div>
-					</div>
-					<!-- Single Partner End -->
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!--== Partner Area End ==-->
-
 <!--== Services Area Start ==-->
 <section id="service-area" class="section-padding">
 	<div class="container">
@@ -184,9 +101,8 @@
 			<!-- Section Title Start -->
 			<div class="col-lg-12">
 				<div class="section-title  text-center">
-					<h2>Our Services</h2>
+					<h2>Services Kami</h2>
 					<span class="title-line"><i class="fa fa-car"></i></span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
 			</div>
 			<!-- Section Title End -->
@@ -307,84 +223,6 @@
 </section>
 <!--== Fun Fact Area End ==-->
 
-<!--== Pricing Area Start ==-->
-<section id="pricing-area" class="section-padding overlay">
-	<div class="container">
-		<div class="row">
-			<!-- Section Title Start -->
-			<div class="col-lg-12">
-				<div class="section-title  text-center">
-					<h2>Only quality for clients</h2>
-					<span class="title-line"><i class="fa fa-car"></i></span>
-				</div>
-			</div>
-			<!-- Section Title End -->
-		</div>
-
-		<!-- Pricing Table Conatent Start -->
-		<div class="row">
-			<!-- Single Pricing Table -->
-			<div class="col-lg-4 col-md-6 text-center">
-				<div class="single-pricing-table">
-					<h3>BUSINESS</h3>
-					<h2>$ 55.99</h2>
-					<h5>PER MONTH</h5>
-
-					<ul class="package-list">
-						<li>FREE VEHICLE DELIVERY</li>
-						<li>WEDDINGS CELEBRATIONS</li>
-						<li>FULL INSURANCE INCLUDED</li>
-						<li>TRANSPORT ABROAD</li>
-						<li>ALL INCLUSIVE MINI BAR</li>
-						<li>CHAUFFER INCLUDED IN PRICE</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Single Pricing Table -->
-
-			<!-- Single Pricing Table -->
-			<div class="col-lg-4 col-md-6 text-center">
-				<div class="single-pricing-table">
-					<h3>Trial</h3>
-					<h2>Free</h2>
-					<h5>PER MONTH</h5>
-
-					<ul class="package-list">
-						<li>FREE VEHICLE DELIVERY</li>
-						<li>OTHER CELEBRATIONS</li>
-						<li>FULL INSURANCE</li>
-						<li>TRANSPORT ABROAD</li>
-						<li>MINI BAR</li>
-						<li>INCLUDED IN PRICE</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Single Pricing Table -->
-
-			<!-- Single Pricing Table -->
-			<div class="col-lg-4 col-md-6 text-center">
-				<div class="single-pricing-table">
-					<h3>standard</h3>
-					<h2>$ 35.99</h2>
-					<h5>PER MONTH</h5>
-
-					<ul class="package-list">
-						<li>DELIVERY AT AIRPORT</li>
-						<li>WEDDINGS AND OTHER</li>
-						<li>FULL INCLUDED</li>
-						<li>TRANSPORT ABROAD</li>
-						<li>ALL MINI BAR</li>
-						<li>CHAUFFER PRICE</li>
-					</ul>
-				</div>
-			</div>
-			<!-- Single Pricing Table -->
-		</div>
-		<!-- Pricing Table Conatent End -->
-	</div>
-</section>
-<!--== Pricing Area End ==-->
-
 <!--== Team Area Start ==-->
 <section id="team-area" class="section-padding">
 	<div class="container">
@@ -392,7 +230,7 @@
 			<!-- Section Title Start -->
 			<div class="col-lg-12">
 				<div class="section-title  text-center">
-					<h2>Our Creative Persons</h2>
+					<h2></h2>
 					<span class="title-line"><i class="fa fa-car"></i></span>
 				</div>
 			</div>
@@ -467,7 +305,7 @@
 			<!-- Section Title Start -->
 			<div class="col-lg-12">
 				<div class="section-title  text-center">
-					<h2>Tips and articles</h2>
+					<h2>Tips dan artikel</h2>
 					<span class="title-line"><i class="fa fa-car"></i></span>
 				</div>
 			</div>

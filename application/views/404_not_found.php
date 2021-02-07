@@ -16,7 +16,7 @@
 
 						<p>the page you are looking for not avaible!</p>
 
-						<a href="<?= base_url('customer/dashboard') ?>" class="link_404">BACK TO HOME</a>
+						<a href="<?= base_url('dashboard') ?>" class="link_404">BACK TO HOME</a>
 					</div>
 				</div>
 			</div>
